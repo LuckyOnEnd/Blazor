@@ -37,5 +37,15 @@ namespace BlazzorFullStack.Server.Services.CarService
             };
             return response;
         }
+
+        public async Task<Service<List<Car>>> GetCarsByType(string categoryUrl)
+        {
+            var response = new Service<List<Car>>
+            {
+                Data = await _db.Cars.Where(x => x.Category.Url.ToLower().Equals(categoryUrl.ToLower())).ToListAsync()
+            };
+
+            return response;
+        }
     }
 }

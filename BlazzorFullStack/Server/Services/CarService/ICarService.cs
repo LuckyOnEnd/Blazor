@@ -6,5 +6,7 @@ namespace BlazzorFullStack.Server.Services.CarService
     {
         Task<Service<List<Car>>> GetCars();
         Task<Service<Car>> GetCar(int carId);
+
+        Task<Service<List<Car>>> GetCarsByType(string caregoryUrl);
     }
 }

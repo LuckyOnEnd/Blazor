@@ -12,6 +12,8 @@ namespace BlazzorFullStack.Client.Services.CarService
         }
         public List<Car> Cars { get; set; } = new List<Car>();
 
+        public event Action CarChanged;
+
         public async Task<Service<Car>> GetCar(int id)
         {
             var result = await _http.GetFromJsonAsync<Service<Car>>($"api/car/{id}");
@@ -19,11 +21,16 @@ namespace BlazzorFullStack.Client.Services.CarService
             return result;
         }
 
-        public async Task GetCars()
+        public async Task GetCars(string? categoryUrl = null)
         {
-            var result = await _http.GetFromJsonAsync<Service<List<Car>>>("api/car");
+            var result = 
+                categoryUrl == null ? 
+                await _http.GetFromJsonAsync<Service<List<Car>>>("api/car") :
+                await _http.GetFromJsonAsync<Service<List<Car>>>($"api/car/category/{categoryUrl}");
 
             Cars = result.Data;
+
+            CarChanged.Invoke();
         }
     }
 }

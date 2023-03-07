@@ -32,5 +32,12 @@ namespace BlazzorFullStack.Server.Controllers
             return Ok(result);
         }
 
+        [HttpGet("category/{categoryUrl}")]
+        public async Task<ActionResult<Service<List<Car>>>> GetCarByType(string categoryUrl)
+        {
+            var result = await _carService.GetCarsByType(categoryUrl);
+            return Ok(result);
+        }
+
     }
 }

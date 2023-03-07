@@ -65,6 +65,22 @@ namespace BlazzorFullStack.Server.Migrations
                             CategoryId = 1,
                             Model = "RS7",
                             Price = 150000m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Brand = "BMW",
+                            CategoryId = 1,
+                            Model = "M7",
+                            Price = 200000m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Brand = "BMW",
+                            CategoryId = 3,
+                            Model = "X7",
+                            Price = 210000m
                         });
                 });
 
@@ -100,6 +116,12 @@ namespace BlazzorFullStack.Server.Migrations
                             Id = 2,
                             CarType = "Sport car",
                             Url = "sportcar"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CarType = "SUV",
+                            Url = "suv"
                         });
                 });
 

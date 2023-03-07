@@ -1,9 +1,17 @@
 ﻿@page "/"
+@page "/{categoryUrl}"
+@inject ICarService CarService
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Car</PageTitle>
 
-<h1>Hello, world!</h1>
+<CarList/>
 
-Welcome to your new app.
+@code{
+    [Parameter]
+    public string? CategoryUrl { get; set; } = null;
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    protected override async Task OnParametersSetAsync()
+    {
+        await CarService.GetCars(CategoryUrl);
+    }
+}

@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/Pages/GetCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0Q2FyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -51,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/Shared/AutomarketLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEF1dG9tYXJrZXRMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-efdbj11k2x
+
+[C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/Shared/AutomarketNav.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEF1dG9tYXJrZXROYXYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-shk50er7xq
 
 [C:/Users/trusv/source/repos/BlazzorFullStack/BlazzorFullStack/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
