@@ -19,7 +19,7 @@ namespace BlazzorFullStack.Server.Controllers
             _carService = carService;
         }
         [HttpGet]
-        public async Task<ActionResult<Service<List<Car>>>> Get()
+        public async Task<ActionResult<Service<List<Car>>>> GetCars()
         {
             var result = await _carService.GetCars();
             return Ok(result);
