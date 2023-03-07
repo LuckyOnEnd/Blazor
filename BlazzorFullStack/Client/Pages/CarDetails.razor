@@ -1,0 +1,22 @@
+﻿@page "/car/{id:int}"
+@using BlazzorFullStack.Shared;
+@inject ICarService CarService
+<h3>CarDetails</h3>
+
+<div>
+    <h1>@car.Brand</h1>
+    <h2>@car.Model</h2>
+</div>
+@code {
+    private Car car = null;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var result = await CarService.GetCar(Id);
+        car = result.Data;
+    }
+    
+}

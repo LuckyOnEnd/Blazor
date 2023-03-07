@@ -1,0 +1,19 @@
+﻿@page "/car"
+@using BlazzorFullStack.Shared
+@inject ICarService CarService
+
+<PageTitle>Weather forecast</PageTitle>
+
+@foreach(var car in CarService.Cars)
+{
+    <div>@car.Brand @car.Model</div>
+}
+
+@code {
+    private static List<Car> cars = new List<Car>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarService.GetCars();
+    }
+}
