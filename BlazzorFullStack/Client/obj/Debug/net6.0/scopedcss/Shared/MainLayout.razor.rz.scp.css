@@ -1,7 +1,4 @@
 .page[b-3jl9ic788p] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 body[b-3jl9ic788p] {
     background-color: black;
@@ -58,10 +55,6 @@ main[b-3jl9ic788p] {
     }
 
     .sidebar[b-3jl9ic788p] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
     }
 
     .top-row[b-3jl9ic788p] {

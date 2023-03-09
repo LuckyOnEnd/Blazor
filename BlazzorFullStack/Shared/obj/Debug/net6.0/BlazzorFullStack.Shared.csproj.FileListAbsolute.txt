@@ -10,3 +10,15 @@ C:\Users\trusv\source\repos\BlazzorFullStack\BlazzorFullStack\Shared\obj\Debug\n
 C:\Users\trusv\source\repos\BlazzorFullStack\BlazzorFullStack\Shared\obj\Debug\net6.0\refint\BlazzorFullStack.Shared.dll
 C:\Users\trusv\source\repos\BlazzorFullStack\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.pdb
 C:\Users\trusv\source\repos\BlazzorFullStack\BlazzorFullStack\Shared\obj\Debug\net6.0\ref\BlazzorFullStack.Shared.dll
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\bin\Debug\net6.0\BlazzorFullStack.Shared.deps.json
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\bin\Debug\net6.0\BlazzorFullStack.Shared.dll
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\bin\Debug\net6.0\BlazzorFullStack.Shared.pdb
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.csproj.AssemblyReference.cache
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.AssemblyInfoInputs.cache
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.AssemblyInfo.cs
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.csproj.CoreCompileInputs.cache
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.dll
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\refint\BlazzorFullStack.Shared.dll
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\BlazzorFullStack.Shared.pdb
+C:\Users\shrouded in shadows\Source\Repos\Blazor\BlazzorFullStack\Shared\obj\Debug\net6.0\ref\BlazzorFullStack.Shared.dll

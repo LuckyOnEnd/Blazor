@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\trusv\\.nuget\\packages\\": {}
+    "C:\\Users\\shrouded in shadows\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\shrouded in shadows\\Source\\Repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
       "projectName": "BlazzorFullStack.Shared",
-      "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
-      "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\shrouded in shadows\\Source\\Repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
+      "packagesPath": "C:\\Users\\shrouded in shadows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shrouded in shadows\\Source\\Repos\\Blazor\\BlazzorFullStack\\Shared\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shrouded in shadows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

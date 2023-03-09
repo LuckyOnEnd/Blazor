@@ -1,7 +1,4 @@
 .page {
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 body {
     background-color: black;
@@ -58,10 +55,6 @@ main {
     }
 
     .sidebar {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
     }
 
     .top-row {

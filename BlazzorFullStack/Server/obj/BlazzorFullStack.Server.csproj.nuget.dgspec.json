@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj": {}
+    "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj": {
+    "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj",
+        "projectUniqueName": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj",
         "projectName": "BlazzorFullStack.Client",
-        "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\obj\\",
+        "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj",
+        "packagesPath": "C:\\Users\\shrouded in shadows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shrouded in shadows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
-                "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj"
+              "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
+                "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj"
               }
             }
           }
@@ -65,12 +69,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.9, 6.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -79,17 +89,21 @@
         }
       }
     },
-    "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj": {
+    "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj",
+        "projectUniqueName": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj",
         "projectName": "BlazzorFullStack.Server",
-        "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Server\\obj\\",
+        "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Server\\BlazzorFullStack.Server.csproj",
+        "packagesPath": "C:\\Users\\shrouded in shadows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shrouded in shadows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,11 +117,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj": {
-                "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj"
+              "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj": {
+                "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Client\\BlazzorFullStack.Client.csproj"
               },
-              "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
-                "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj"
+              "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
+                "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj"
               }
             }
           }
@@ -160,21 +174,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
+    "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
         "projectName": "BlazzorFullStack.Shared",
-        "projectPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
-        "packagesPath": "C:\\Users\\trusv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
+        "packagesPath": "C:\\Users\\shrouded in shadows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shrouded in shadows\\Source\\Repos\\Blazor\\BlazzorFullStack\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\trusv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shrouded in shadows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

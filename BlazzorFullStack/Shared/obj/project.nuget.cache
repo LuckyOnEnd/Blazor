@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8dn9kApw9BbQFYwOdwrq8tx2og1he6x95E4BSJQ37hVkX358sKIcDG61HvRKmUZJSv+56bis/e12aAfqx88tjw==",
+  "dgSpecHash": "7FK8J3EjcNQDDqMhSny1T3fu8mumeUcmkpFyCCED0xG+jgJfqtILpOFrEyRwHCK+2ouqBIHMzT51GSysM2JP5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trusv\\source\\repos\\BlazzorFullStack\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
+  "projectFilePath": "C:\\Users\\shrouded in shadows\\source\\repos\\Blazor\\BlazzorFullStack\\Shared\\BlazzorFullStack.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

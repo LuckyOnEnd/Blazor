@@ -51,11 +51,12 @@ body[b-efdbj11k2x]{
 .main[b-shk50er7xq]{
     font-size: 40px;
 }
+/* /Shared/CarList.razor.rz.scp.css */
+.card[b-ign7w900ay] {
+    background-color: purple;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-3jl9ic788p] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 body[b-3jl9ic788p] {
     background-color: black;
@@ -112,10 +113,6 @@ main[b-3jl9ic788p] {
     }
 
     .sidebar[b-3jl9ic788p] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
     }
 
     .top-row[b-3jl9ic788p] {
@@ -145,6 +142,10 @@ main[b-3jl9ic788p] {
     background-color: rgba(0,0,0,0.4);
 }
 
+.nav-link[b-i1fzuslaur]{
+    display: flex;
+    justify-content: space-between;
+}
 .navbar-brand[b-i1fzuslaur] {
     font-size: 1.1rem;
 }
@@ -158,21 +159,18 @@ main[b-3jl9ic788p] {
 
 .nav-item[b-i1fzuslaur] {
     font-size: 0.9rem;
-    padding-bottom: 0.5rem;
 }
 
     .nav-item:first-of-type[b-i1fzuslaur] {
-        padding-top: 1rem;
     }
 
     .nav-item:last-of-type[b-i1fzuslaur] {
-        padding-bottom: 1rem;
     }
 
     .nav-item[b-i1fzuslaur]  a {
         color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
+        border-radius: 2px;
+        height: 1.5rem;
         display: flex;
         align-items: center;
         line-height: 3rem;
